@@ -1,0 +1,32 @@
+*{
+    text-decoration: none;
+}
+.section1{
+    height: 100vh;
+    color: white;
+    display: flex;
+    justify-content: center;
+    background-size: cover;
+    background-position: center;
+    animation: backgroundChange 30s infinite;
+}
+@keyframes backgroundChange {
+    0% { background-image: url(images/bouquet1.jpg);}
+    33% { background-image: url(images/bouquet2.jpg);}
+    66% { background-image: url(images/bouquet3.jpg);}
+    100% { background-image: url(images/bouquet1.jpg);}
+}
+.section1-div{
+    font-size: large;
+    font-family: 'Times New Roman', Times, serif;
+    border: hidden;
+    background-color: #ffffff;
+    color: black;
+    display: flex;
+    justify-content: right;
+    text-align: center;
+    padding: 15px;
+    margin: 50px;
+    flex-direction: row;
+    grid-column: SW;
+}
